@@ -1,0 +1,150 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #272c34;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #contenedor {
+    border-radius: 100%;
+    background-color: #7ddffc;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    clip-path: circle(90px at 90px 90px);
+    animation: contenedor 3s infinite linear;
+  }
+
+  .sol {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    background-color: green;
+    animation: sol 3s infinite linear;
+  }
+
+  .suelo {
+    background-color: #f0de75;
+    width: 180px;
+    height: 120px;
+    transform: translate(0px, 30px);
+  }
+
+  .tri {
+    background-color: white;
+    height: 58px;
+  }
+
+  .tri.de {
+    width: 60px;
+    clip-path: polygon(30% 100%, 100% 100%, 0% 0%);
+    animation: tri-de 3s infinite linear;
+    transform: translate(90px, 30px);
+  }
+
+  .tri.izq {
+    position: absolute;
+    width: 110px;
+    clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+    transform: translate(35px, -28px);
+    z-index: -1;
+    animation: tri-de 3s infinite linear reverse;
+  }
+
+  .sombra {
+    position: absolute;
+    z-index: 2;
+    bottom: 28px;
+    left: -80px;
+    height: 30px;
+    width: 360px;
+    background: rgba(0, 0, 0, 0.2);
+    transform-origin: 50% 0%;
+    animation: sombra 3s infinite linear;
+  }
+
+  @keyframes sol {
+    100% {
+      transform: translate(180px, 70px);
+    }
+    75% {
+      transform: translate(120px, 10px);
+    }
+    50% {
+      transform: translate(80px, 3px);
+    }
+    25% {
+      transform: translate(30px, 10px);
+    }
+    0% {
+      transform: translate(-20px, 60px);
+    }
+  }
+
+  @keyframes tri-de {
+    80% {
+      background-color: white;
+    }
+
+    40% {
+      background-color: #dddada;
+    }
+
+    0% {
+      background-color: #4b525d;
+    }
+  }
+
+  @keyframes contenedor {
+    100% {
+      opacity: 0;
+    }
+
+    75% {
+      opacity: 1;
+    }
+
+    20% {
+      opacity: 1;
+    }
+
+    0% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes sombra {
+    0% {
+      transform: scaleY(0);
+      clip-path: polygon(115px 0%, 231px 0%, 100% 100%);
+    }
+
+    30% {
+      transform: scaleY(1);
+      clip-path: polygon(115px 0%, 231px 0%, 80% 100%);
+    }
+    55% {
+      transform: scaleY(0.4);
+    }
+    75% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scaleY(0);
+      clip-path: polygon(115px 0%, 231px 0%, 0% 100%);
+    }
+  }

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #E56262;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  div>div{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 2;
+    scale: 0%;
+    animation: circulo-medio 5s ease-in-out infinite;
+  }
+
+  div > div:first-child{
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+    animation: circulo-final 5s ease-in-out infinite;
+  }
+
+  div > div:last-child{
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    animation: circulo 5s ease-in-out infinite ;
+  }
+
+  @keyframes circulo{
+    0%{
+        scale: 0%;
+    }
+
+    50%{
+        scale:100%;
+    }
+
+    75%{
+        scale:100%;
+    }
+
+    100%{
+        scale: 0%
+    }
+  }
+
+  @keyframes circulo-medio{
+    20%{
+        scale: 0%;
+    }
+
+    55%{
+        scale:100%;
+    }
+
+    70%{
+        scale:100%;
+    }
+
+    90%{
+        scale: 0%
+    }
+  }
+
+  @keyframes circulo-final{
+
+    40%{
+        scale: 0%;
+    }
+
+    60%{
+        scale:100%;
+    }
+
+    80%{
+        scale: 0%
+    }
+  }
