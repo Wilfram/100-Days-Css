@@ -26,10 +26,6 @@ El objetivo de este repositorio es documentar mi progreso en el reto. Si alguien
 
 ---
 
-¡Espero que te sea útil! 😃✨
-
----
-
 # 100 Days CSS Challenge Solutions 🎨💻
 
 This repository contains my solutions and practices in HTML, CSS, and JavaScript for the [100 Days CSS Challenge](https://100dayscss.com). I am working on these design and web development challenges whenever I can, tackling various topics and techniques to improve my front-end skills.
@@ -57,5 +53,3 @@ This repository contains my solutions and practices in HTML, CSS, and JavaScript
 The objective of this repository is to document my progress in the challenge. If anyone wants to view or use it, they are free to do so, whether they are participating in the challenge or not. I hope this project is useful for those interested in learning more about HTML, CSS, and JavaScript.
 
 ---
-
-I hope you find it useful! 😃✨
