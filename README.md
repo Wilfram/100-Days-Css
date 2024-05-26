@@ -11,7 +11,7 @@ Este repositorio contiene mis soluciones y prácticas de HTML, CSS y JavaScript 
 
 ## Cómo usar este repositorio 🚀
 
-1. Visita la [página principal en GitHub Pages](URL_DE_TU_GITHUB_PAGES) para ver y probar las soluciones directamente en tu navegador.
+1. Visita la [página principal en GitHub Pages](https://wilfram.github.io/100-Days-Css/) para ver y probar las soluciones directamente en tu navegador.
 
 ### También puedes 🛠️
 
@@ -39,7 +39,7 @@ This repository contains my solutions and practices in HTML, CSS, and JavaScript
 
 ## How to Use This Repository 🚀
 
-1. Visit the [main page on GitHub Pages](YOUR_GITHUB_PAGES_URL) to view and test the solutions directly in your browser.
+1. Visit the [main page on GitHub Pages](https://wilfram.github.io/100-Days-Css/) to view and test the solutions directly in your browser.
 
 ### You can also 🛠️
 
