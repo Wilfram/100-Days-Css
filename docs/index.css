@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px 10px;
+    margin: 20px;
+    border: solid;
+    border-radius: 10px;
+  }
+
+  iframe{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .one{
+    background: linear-gradient(to top right, #43389f, #4ec6ca);
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    border-image: linear-gradient(to top right, #43389f, #4ec6ca);
+    border-image-slice: 1;
+  }
+
+  .two{
+    color: #3faf82;
+  }
+
+  .three{
+    color: #272c34;
+  }
+
+  .four{
+    color: #E56262;
+  }
