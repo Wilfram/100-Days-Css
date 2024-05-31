@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", Helvetica, sans-serif;
+  }
+
+  body > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #42A7A1;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  body > div > div{
+    width: 280px;
+    height: 200px;
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+  .superior{
+    width: 280px;
+    height: 60px;
+    background-color: #F1BA64;
+    border-radius: 2px 2px 0 0;
+    color: #fff;
+    padding: 12px;
+    position: relative;
+  }
+
+  .inferior{
+    width: 280px;
+    height: 160px;
+    background-color: #fff;
+    border-radius: 0 0 2px 2px;
+    color: #949494be;
+    padding: 12px;
+    position: relative;
+  }
+
+  h2{
+    font-size: 14px;
+    margin-bottom: 1px;
+  }
+
+  h3{
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  h3 + h3, h3+h3+h2{
+    position: absolute;
+  }
+
+  h3 + h3{
+    top: 12px;
+    right: 12px;
+  }
+
+  h3+h3+h2{
+    top: 28px;
+    right: 12px;
+  }
+
+  .names{
+    display: flex;
+    float: right;
+    color: #606060d7
+  }
+
+  .names .pild{
+    height: 3px;
+    width: 10px;
+    border-radius: 20px;
+    margin: 6px 10px 0 20px;
+  }
+
+  .pild.red{
+    background-color: #fa7373; 
+  }
+
+  .pild.blue{
+    background-color: #7ba2ff;
+  }
+
+  .names p{
+    font-size: 10px;
+  }
+
+  .days{
+    position: absolute;
+    bottom: 16px;
+  }
+
+  h4{
+    float: left;
+    font-size: 10px;
+    margin-right: 19px;
+  }
+
+  .inferior hr:first-child{
+    margin-top: 40px;
+  }
+
+  hr{
+    margin-top: 34px;
+    border-color: #9494940f;
+  }
+
+  .inferior h4:last-child{
+    margin-right: 0;
+  }
+
+  svg{
+    position: absolute;
+    top: 40px;
+    width: 260px;
+    height: 90px;
+  }
+
+  .line{
+    fill: none; 
+    stroke-width: 2.5;
+  }
+
+  .line.red{
+    stroke: #fa7373; 
+  }
+
+  .line.blue{
+    stroke: #7ba2ff;
+  }
+
+  span{
+    display: none;
+    position: absolute;
+    color: #fff;
+    animation: ease-out .4s hover;
+    z-index: -10;
+  }
+
+  .point{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .points-red{
+    position: absolute;
+    top: 46px;
+    width: 260px;
+    height: 46px;
+    z-index: 10;
+  }
+
+  .points-blue{
+    position: absolute;
+    width: 260px;
+    height: 38px;
+    z-index: 10;
+    bottom: 34px;
+  }
+
+  .points-red > div, .points-blue > div{
+    position: absolute;
+  }
+
+  .points-red .one{
+    bottom: 4px;
+    left: 8px;
+  }
+
+  .points-red .two{
+    top: 1.5px;
+    left: 49.7px;
+  }
+
+  .points-red .three{
+    top: 12.5px;
+    left: 92px;
+  }
+
+  .points-red .four{
+    top: 0.5px;
+    right: 120px;
+  }
+
+  .points-red .five{
+    bottom: 8.02px;
+    right: 80px;
+  }
+
+  .points-red .six{
+    bottom: 1.5px;
+    right: 46px;
+  }
+
+  .points-red .seven{
+    top: 10px;
+    right: 10px;
+  }
+
+  .points-blue .one{
+    top: 14.5px;
+    left: 8px;
+  }
+
+  .points-blue .two{
+    top: 2px;
+    left: 49.5px;
+  }
+
+  .points-blue .three{
+    bottom: 15px;
+    left: 93px;
+  }
+
+  .points-blue .four{
+    top: 10px;
+    right: 120px;
+  }
+
+  .points-blue .five{
+    top: 15px;
+    right: 80px;
+  }
+
+  .points-blue .six{
+    bottom: 6px;
+    right: 46px;
+  }
+
+  .points-blue .seven{
+    bottom: 14px;
+    right: 8px;
+  }
+
+  .points-red > div > span, .points-blue > div > span{
+    position: absolute;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 10px;
+  }
+
+  .points-red > div > span{
+    left: -10.8px;
+    top: -29px;
+  }
+
+  .points-blue > div > span{
+    left: -7.8px;
+    top: -28px;
+  }
+
+  .point:hover + span{
+    display: block;
+  }
+  
+  span::after{
+    position: absolute;
+    display: block;
+    content: "";
+    height: 6px;
+    width: 6px;
+    left: 50%;
+    margin-left: -3px;
+    bottom: -3px;
+    transform: rotate(45deg);
+    background-color: inherit;
+  }
+
+  .points-red .point, .points-red span{
+    background-color: #fa7373;
+  }
+
+  .points-blue .point, .points-blue span{
+    background-color: #7ba2ff;
+  }
+
+  @keyframes hover{
+    from{
+      transform: translateY(10px);
+      opacity: 0;
+    }
+
+    to{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
