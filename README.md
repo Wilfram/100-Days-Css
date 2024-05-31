@@ -2,7 +2,7 @@
 
 Este repositorio contiene mis soluciones y prácticas de HTML, CSS y JavaScript del reto [100 Days CSS Challenge](https://100dayscss.com). Estoy trabajando en estos desafíos de diseño y desarrollo web cada vez que puedo, abordando diversos temas y técnicas para mejorar mis habilidades en front-end.
 
-**Nota:** El proyecto está en progreso y actualmente estoy en el Día 4.
+**Nota:** El proyecto está en progreso y actualmente estoy en el Día 5.
 
 ## Contenido 📂
 
@@ -30,7 +30,7 @@ El objetivo de este repositorio es documentar mi progreso en el reto. Si alguien
 
 This repository contains my solutions and practices in HTML, CSS, and JavaScript for the [100 Days CSS Challenge](https://100dayscss.com). I am working on these design and web development challenges whenever I can, tackling various topics and techniques to improve my front-end skills.
 
-**Note:** The project is in progress and I am currently on Day 4.
+**Note:** The project is in progress and I am currently on Day 5.
 
 ## Content 📂
 
