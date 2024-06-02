@@ -101,13 +101,10 @@ background: linear-gradient(90deg, rgba(63,166,118,1) 25%, rgba(46,89,77,1) 96%)
     border-right-color:rgba(0, 0, 0, 0);
   }
 
-  .img:hover ~ h2, .img:hover ~  h3, .img:hover ~ button {
+  .img:hover ~ h2, .img:hover ~  h3 {
     color: #132624;
   }
 
-  .img:hover ~ button {
-    border-color: #132624;
-  }
 
   .img:hover + .imgs {
     background-image: url("./img/Dog2.jpg");
@@ -145,7 +142,6 @@ background: linear-gradient(90deg, rgba(63,166,118,1) 25%, rgba(46,89,77,1) 96%)
     border: #2E594D solid 2px;
     font-weight: bold;
     cursor: pointer;
-    transition: border-color 2s ease, color 2s ease;
   }
 
   button:hover{
