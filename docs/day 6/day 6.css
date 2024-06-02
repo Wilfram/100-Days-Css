@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", Helvetica, sans-serif;
+  }
+
+  body > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+background: linear-gradient(90deg, rgba(63,166,118,1) 25%, rgba(46,89,77,1) 96%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  body > div > div{
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3); 
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+}
+
+  img{
+    width: 80px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .content-1{
+    display: flex;
+    height: 300px;
+    width: 180px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgs {
+    background-image: url("./img/Dog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    border-radius: 100%;
+    transition: all .6s cubic-bezier(0.25, 0.1, 0.75, 1);
+}
+
+  .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2E594D;
+    border-right-color:rgba(0, 0, 0, 0);
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 2s ease;
+    z-index: 10;
+  }
+
+  .img > div{
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2E594D;
+    border-left-color:rgba(0, 0, 0, 0);
+    border-radius: 100%;
+    padding: 2px;
+    transition: all 2s ease;
+    transform: rotate(0deg);
+  }
+
+  .img:hover > div{
+    transform: rotate(360deg);
+    border-color: #132624;
+    border-left-color:rgba(0, 0, 0, 0);
+  }
+
+  .img:hover{
+    transform: rotate(360deg);
+    border-color: #132624;
+    border-right-color:rgba(0, 0, 0, 0);
+  }
+
+  .img:hover ~ h2, .img:hover ~  h3, .img:hover ~ button {
+    color: #132624;
+  }
+
+  .img:hover ~ button {
+    border-color: #132624;
+  }
+
+  .img:hover + .imgs {
+    background-image: url("./img/Dog2.jpg");
+    transform: rotate(360deg);
+}
+
+  img+img{
+    display: none;
+  }
+
+  h2,h3,button{
+    color: #2E594D;
+  }
+
+  h2,h3{
+    transition: all 2s ease;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  h3{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+  }
+
+  button{
+    width: 120px;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 12px;
+    border: #2E594D solid 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: border-color 2s ease, color 2s ease;
+  }
+
+  button:hover{
+    background-color: #2E594D;
+    color: white;
+  }
+
+  .content-2{
+    width: 120px;
+  }
+
+  .cif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 120px;
+    height: 99.4px;
+    background-color: #41bf8445;
+    cursor: pointer;
+  }
+
+  .cif:hover{
+    background-color: #41bf846d;
+  }
+
+ .cif h3{
+    margin: 0;
+  }
+
+  .content-2  .cif:first-child{
+    margin-bottom: 1px;
+    border-radius: 0 6px 0 0;
+  }
+
+  .content-2  .cif:last-child{
+    margin-top: 1px;
+    border-radius: 0 0 6px 0;
+  }

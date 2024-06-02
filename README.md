@@ -2,11 +2,11 @@
 
 Este repositorio contiene mis soluciones y prácticas de HTML, CSS y JavaScript del reto [100 Days CSS Challenge](https://100dayscss.com). Estoy trabajando en estos desafíos de diseño y desarrollo web cada vez que puedo, abordando diversos temas y técnicas para mejorar mis habilidades en front-end.
 
-**Nota:** El proyecto está en progreso y actualmente estoy en el Día 5.
+**Nota:** El proyecto está en progreso y actualmente estoy en el Día 6.
 
 ## Contenido 📂
 
-- **Día 1 a Día 5**: Carpetas individuales para cada desafío con los archivos HTML, CSS y JavaScript correspondientes.
+- **Día 1 a Día 6**: Carpetas individuales para cada desafío con los archivos HTML, CSS y JavaScript correspondientes.
 - **Página principal en GitHub Pages**: Enlace al HTML principal que muestra la solución de cada día mediante un cuadro con el día y un iframe con la vista de la solución. Al hacer clic en estos cuadros, se puede acceder al HTML del día correspondiente.
 
 ## Cómo usar este repositorio 🚀
@@ -30,11 +30,11 @@ El objetivo de este repositorio es documentar mi progreso en el reto. Si alguien
 
 This repository contains my solutions and practices in HTML, CSS, and JavaScript for the [100 Days CSS Challenge](https://100dayscss.com). I am working on these design and web development challenges whenever I can, tackling various topics and techniques to improve my front-end skills.
 
-**Note:** The project is in progress and I am currently on Day 5.
+**Note:** The project is in progress and I am currently on Day 6.
 
 ## Content 📂
 
-- **Day 1 to Day 5**: Individual folders for each challenge with the corresponding HTML, CSS, and JavaScript files.
+- **Day 1 to Day 6**: Individual folders for each challenge with the corresponding HTML, CSS, and JavaScript files.
 - **Main page on GitHub Pages**: Link to the main HTML page that shows each day's solution using a box with the day and an iframe with the solution view. By clicking on these boxes, you can access the HTML for the corresponding day.
 
 ## How to Use This Repository 🚀
